@@ -1,0 +1,28 @@
+{
+  "name": "entry-ent-server",
+  "version": "1.0.0",
+  "description": "Entry project URL → .ent file API server",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "entry",
+    "playentry",
+    "entryjs",
+    "ent",
+    "api",
+    "download"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "tar": "^6.2.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
